@@ -13,6 +13,9 @@ header {
    border-bottom: solid #7d97ad;
 }
 footer {
+    background-color: #FFF;
+    position: fixed;
+    bottom: 0px;
     text-align: center;
 }
 .headings {
@@ -35,7 +38,7 @@ h1 {
     font-size: 28px;
 }
 .main-project {
-   margin-top: 20px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -47,6 +50,7 @@ h1 {
      margin: 10px;
      float: left;
      max-width: 265px;
+     width: 100%;
      text-align: center;
 }
 .gallery img {
@@ -61,17 +65,17 @@ h2 {
      font-weight: lighter;
 }
 h3 {
-      font-size: 30px;
-     text-transform: uppercase;
-     margin-bottom: 5px;
-     margin-top: 5px;
-     font-weight: lighter;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: lighter;
 }
 p {
    display: block;
    text-align: center;
 }
-@media screen and (min-width: 320px) and (max-width: 599px) {
+@media screen and (min-width: 300px) and (max-width: 599px) {
           .container {
              width: 100%;
            }
@@ -87,7 +91,7 @@ p {
             }
            .headings { font-size: 10px; }
             h2 {font-size: 20px; }
-            footer { text-align: center; }
+            footer { text-align: center;}
 }
 @media screen and (min-width: 600px) and (max-width: 799px) {
           .container {
@@ -103,20 +107,20 @@ p {
                  horizontal-align: center;
             }
             .headings { font-size: 20px; }
-            footer { display: none; }
+            footer { text-align: center;}
  }
 @media screen and (min-width: 800px) and (max-width: 1000px) {
           .container {
              width: 100%;
            }
          .gallery img {
-               width: 100%;
+              width: 100%;
            }
            .main-project {
-                width: 100%;
-                 horizontal-align: center;
+              width: 100%;
+              horizontal-align: center;
             }
-          footer { display: none; }
+          footer { text-align: center;}
           h3 { font-size: 20px; }
           p { font-size: 10px; }
 }
