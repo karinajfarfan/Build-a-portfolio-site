@@ -19,11 +19,15 @@ a logo.
 
 Font: https://fonts.google.com/specimen/Montserrat
 
+Images: https://www.pexels.com/
+
 
 About me link: https://www.linkedin.com/in/karina-farf%C3%A1n-87080711a/
 
 My interest link: https://karinajfarfan.wixsite.com/website
 
 Code link: https://github.com/karinajfarfan
+
+
 
  
