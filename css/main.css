@@ -84,13 +84,13 @@ p {
     background-size: cover;
 
   }
-  .row.featured-work.about {
+  featured-work.about {
     background-image: url("../img/about.jpg");
   }
-  .row.featured-work.interest {
+  featured-work.interest {
     background-image: url('../img/interest.jpg');
   }
-  .row.featured-work.coding {
+  featured-work.coding {
     background-image: url('../img/coding.jpg');
   }
 
@@ -98,15 +98,9 @@ p {
           .container {
              width: 100%;
            }
-           .gallery img {
-              width: 100%;
-              height: auto;
-              magin: 5px;
-              horizontal-align: center;
-           }
            .main-project {
-                width: 100%;
-                 horizontal-align: center;
+              width: 100%;
+              horizontal-align: center;
             }
            .headings { font-size: 20px; }
             h2 { font-size: 20px; }
