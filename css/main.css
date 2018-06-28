@@ -53,13 +53,9 @@ h1 {
      width: 100%;
      text-align: center;
 }
-.gallery img {
-     max-width: 265px;
-     height: 200px;
-}
 h2 {
      color: #7d97ad;
-     font-size: 50px;
+     font-size: 40px;
      margin-top: 10px;
      margin-bottom: 0;
      font-weight: lighter;
@@ -75,6 +71,29 @@ p {
    display: block;
    text-align: center;
 }
+
+.featured-work-box {
+    text-align:center;
+    margin: 0px 10px 20px 10px;
+  }
+  .featured-work {
+    height: 30%;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+  }
+  .featured-work.about {
+    background-image: url("../img/about.jpg");
+  }
+  .featured-work.interest {
+    background-image: url('../img/interest.jpg');
+  }
+  .featured-work.coding {
+    background-image: url('../img/coding.jpg');
+  }
+
 @media screen and (min-width: 300px) and (max-width: 599px) {
           .container {
              width: 100%;
@@ -89,15 +108,15 @@ p {
                 width: 100%;
                  horizontal-align: center;
             }
-           .headings { font-size: 10px; }
-            h2 {font-size: 20px; }
+           .headings { font-size: 20px; }
+            h2 { font-size: 20px; }
             footer { text-align: center;}
 }
 @media screen and (min-width: 600px) and (max-width: 799px) {
           .container {
              width: 100%;
            }
-         .gallery img {
+         .featured-work-box {
               width: 100%;
               height: auto;
               magin: 5px;
@@ -113,14 +132,13 @@ p {
           .container {
              width: 100%;
            }
-         .gallery img {
+         .featured-work-box {
               width: 100%;
+              height: auto;
            }
            .main-project {
               width: 100%;
               horizontal-align: center;
             }
           footer { text-align: center;}
-          h3 { font-size: 20px; }
-          p { font-size: 10px; }
 }
