@@ -6,6 +6,7 @@ First project to submit for review -- Front-End Developer course on Udacity.
 Project Rubric link: https://review.udacity.com/#!/rubrics/45/view
 
 HTML code passes https://validator.w3.org/#validate_by_input
+
 CSS code passes https://jigsaw.w3.org/css-validator/#validate_by_input
 
 The page at minimum includes all of the following:
