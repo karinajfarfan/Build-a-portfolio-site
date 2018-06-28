@@ -11,13 +11,13 @@ CSS code passes https://jigsaw.w3.org/css-validator/#validate_by_input
 
 The page at minimum includes all of the following:
 
-at least 4 images
+ at least 4 images
 
-title text (h1, h2, etc.)
+ title text (h1, h2, etc.)
 
-regular (paragraph) text
+ regular (paragraph) text
 
-a logo.
+ a logo.
 
 # Links inlcuded in code:
 Font: https://fonts.google.com/specimen/Montserrat
