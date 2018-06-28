@@ -65,25 +65,25 @@ p {
 }
 
 .featured-work-box {
-    text-align:center;
+    text-align: center;
     margin: 0px 10px 20px 10px;
   }
   .featured-work {
     height: 30%;
-    width:100%;
-    background-repeat:no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 
   }
   .featured-work.about {
-    background-image: url("../img/about.jpg");
+    background-image: url("img/about.jpg");
   }
   .featured-work.interest {
-    background-image: url('../img/interest.jpg');
+    background-image: url("img/interest.jpg");
   }
   .featured-work.coding {
-    background-image: url('../img/coding.jpg');
+    background-image: url("img/coding.jpg");
   }
 
 @media screen and (min-width: 300px) and (max-width: 599px) {
