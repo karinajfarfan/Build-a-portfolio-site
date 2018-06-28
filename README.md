@@ -17,6 +17,9 @@ regular (paragraph) text
 a logo.
 
 
+
+Links included in code: 
+
 Font: https://fonts.google.com/specimen/Montserrat
 
 Images: https://www.pexels.com/
