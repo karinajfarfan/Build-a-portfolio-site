@@ -84,13 +84,13 @@ p {
     background-size: cover;
 
   }
-  .featured-work.about {
+  .row.featured-work.about {
     background-image: url("../img/about.jpg");
   }
-  .featured-work.interest {
+  .row.featured-work.interest {
     background-image: url('../img/interest.jpg');
   }
-  .featured-work.coding {
+  .row.featured-work.coding {
     background-image: url('../img/coding.jpg');
   }
 
