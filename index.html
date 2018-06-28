@@ -1,20 +1,26 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
   <title>Portfolio Site</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
   <meta name="description" content=" ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--font from google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!--CSS-->
   <link rel="stylesheet" href="css/main.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 
 <body>
   <div class="container">
-    <header>
-      <img id="logo" src="https://scontent.fbom3-1.fna.fbcdn.net/v/t1.0-1/12743742_799537270151613_7802811979984674555_n.png?_nc_cat=0&oh=e0bbb17d3a428801d6bbaf950b710963&oe=5B79B443" alt="logo">
-          <!--Udacity logo-->
-      <div class="headings">
+    <header class="row">
+        <!--Udacity logo-->
+      <img id="logo" src="https://scontent.fbom3-1.fna.fbcdn.net/v/t1.0-1/12743742_799537270151613_7802811979984674555_n.png?_nc_cat=0&oh=e0bbb17d3a428801d6bbaf950b710963&oe=5B79B443" alt="logo" class="col-sm-1.5">
+      <div class="col-sm-6 headings">
         <h1>Karina J. Farfan</h1>
         <span class="sub-title">FRONT-END ARTIST</span>
       </div>
@@ -23,31 +29,39 @@
     <section class="main-project">
       <img src="img/center.jpg" alt="mac laptop" class="main-project">
     </section>
-          <!-- row of 3 images with links to "featured work"-->
-    <h2>Featured Work</h2>
-    <div class="gallery">
-      <div>
-        <img src="img/about.jpg" alt="about"> <!--image 1-->
-        <h3>about me</h3> <!--all caps-->
-        <p><a href="https://www.linkedin.com/in/karina-farfán-87080711a">LinkedIn</a></p>
-      </div>
-    </div>
-    <div class="gallery">
-      <div>
-        <img src="img/interest.jpg" alt="interest" /> <!--image 2-->
-        <h3>my interests</h3> <!--all caps-->
-        <p><a href="https://karinajfarfan.wixsite.com/website">Wixsite</a></p>
-      </div>
-    </div>
-    <div class="gallery">
-      <div>
-        <img src="img/coding.jpg" alt="coding skeleton"> <!--image 3-->
-        <h3>code</h3> <!--all caps-->
-        <p><a href="https://github.com/karinajfarfan">Github</a></p>
-      </div>
-    </div>
-    <footer>Copyright&copy;2018-19</footer>
+        <h2>Featured Work</h2>
+            <div class="row">
+              <!-- row of 3 images with links to "featured work"-->
+              <div class="col-sm-4">
+                <div class="featured-work-box">
+                    <div class="featured-work about"></div>
+                    <h3>about me</h3>
+                    <p><a href="https://www.linkedin.com/in/karina-farfán-87080711a">LinkedIn</a></p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="featured-work-box">
+                  <div>
+                    <div class="featured-work interest"></div>
+                    <h3>my interests</h3>
+                    <p><a href="https://karinajfarfan.wixsite.com/website">Wixsite</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="featured-work-box">
+                  <div>
+                    <div class="featured-work coding"></div>
+                    <h3>code</h3>
+                    <p><a href="https://github.com/karinajfarfan">Github</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <footer>Copyright&copy;2018</footer>
   </div>
+
 </body>
 
 </html>
