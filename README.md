@@ -1,4 +1,4 @@
-# Build-a-portfolio-site
+# Build-a-portfolio-site 
 
 First project to submit for review -- Front-End Developer course on Udacity. 
 
@@ -16,10 +16,7 @@ regular (paragraph) text
 
 a logo.
 
-
-
-Links included in code: 
-
+# Links inlcuded in code:
 Font: https://fonts.google.com/specimen/Montserrat
 
 Images: https://www.pexels.com/
