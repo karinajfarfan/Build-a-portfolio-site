@@ -76,13 +76,13 @@ p {
     background-size: cover;
 
   }
-  .featured-work.about {
+  .about {
     background-image: url('../img/about.jpg');
   }
-  .featured-work.interest {
+  .interest {
     background-image: url('../img/interest.jpg');
   }
-  .featured-work.coding {
+  .coding {
     background-image: url('../img/coding.jpg');
   }
 
