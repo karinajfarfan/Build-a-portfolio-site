@@ -77,13 +77,13 @@ p {
 
   }
   .featured-work.about {
-    background-image: url("../img/about.jpg");
+    background-image: url('../img/about.jpg');
   }
   .featured-work.interest {
-    background-image: url("../img/interest.jpg");
+    background-image: url('../img/interest.jpg');
   }
   .featured-work.coding {
-    background-image: url("../img/coding.jpg");
+    background-image: url('../img/coding.jpg');
   }
 
 @media screen and (min-width: 300px) and (max-width: 599px) {
