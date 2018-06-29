@@ -22,6 +22,8 @@ The page at minimum includes all of the following:
 # Links inlcuded in code:
 Font: https://fonts.google.com/specimen/Montserrat
 
+Udacity Logo: https://scontent.fbom3-1.fna.fbcdn.net/v/t1.0-1/12743742_799537270151613_7802811979984674555_n.png?_nc_cat=0&oh=e0bbb17d3a428801d6bbaf950b710963&oe=5B79B443
+
 Images: https://www.pexels.com/
 
 
@@ -30,6 +32,7 @@ About me link: https://www.linkedin.com/in/karina-farf%C3%A1n-87080711a/
 My interest link: https://karinajfarfan.wixsite.com/website
 
 Code link: https://github.com/karinajfarfan
+
 
 
 
