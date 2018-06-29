@@ -96,17 +96,14 @@ p {
 
 .featured-work.about {
   background-image: url('../img/about.jpg');
-  /* add the class img-responsive or img-fluid to images?*/
 }
 
 .featured-work.interest {
   background-image: url('../img/interest.jpg');
-  /* add the class img-responsive or img-fluid to images?*/
 }
 
 .featured-work.coding {
   background-image: url('../img/coding.jpg');
-  /* add the class img-responsive or img-fluid to images?*/
 }
 
 @media screen and (min-width: 300px) and (max-width: 599px) {
